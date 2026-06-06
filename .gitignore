@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+
+# External datasets and generated arrays
+data/porto/*
+data/chengdu/*
+!data/porto/.gitkeep
+!data/chengdu/.gitkeep
+*.npy
+*.npz
+*.pkl
+!repro_assets/**/*.npy
+!repro_assets/**/*.npz
+!repro_assets/**/*.pkl
+
+# Model artifacts
+*.pth
+*.pt
+!repro_assets/**/*.pth
+src/project_v2/models/
+src/project_v2/temporal_model/*.pth
+checkpoints/*
+!checkpoints/.gitkeep
+!checkpoints/README.md
+
+# Runtime outputs
+src/project_v2/logs/
+src/project_v2/probs/
+src/project_v2/data/
+runs/
+logs/
+tmp/
+
+# Archives
+*.tar
+*.tar.gz
+*.zip
