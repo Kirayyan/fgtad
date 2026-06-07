@@ -97,7 +97,7 @@ You can modify the configuration and command-line arguments according to the dat
 
 ## Notes
 
-- The Porto and Chengdu raw datasets are not included in this repository. Please download them manually and place them under `datasets/`.
+- The Porto and Chengdu raw datasets are not included in this repository. Please download them manually and place them under `datasets/`. dataset can download https://drive.google.com/file/d/1AGklymPrryi5Cq24MZLm083jXfQDP4X9/view?usp=sharing
 - The trained model weights are included in `repro_assets/models/`.
 - The satellite image features are included in `repro_assets/data/`.
 - The anomaly files are not included by default and should be generated using the provided scripts.
