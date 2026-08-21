@@ -2,7 +2,14 @@
 
 This repository contains the code for **FG-TAD: Fine-Grained Online Trajectory Anomaly Detection**.
 
-We use two public trajectory datasets: **Porto** and **Chengdu**. Both datasets are publicly available and can be downloaded from the Internet. Please download the raw datasets manually and save them under the `datasets/` directory before running preprocessing.
+## Datasets
+
+We use two public trajectory datasets:
+
+- **Porto**: [Taxi Service Trajectory Prediction Challenge, ECML PKDD 2015](https://www.kaggle.com/c/pkdd-15-predict-taxi-service-trajectory-i)
+- **Chengdu**: [DiDi Chuxing Open Data Platform](https://outreach.didichuxing.com)
+
+Please download the raw datasets manually and save them under the `datasets/` directory before running preprocessing.
 
 A recommended directory structure is:
 
@@ -97,7 +104,7 @@ You can modify the configuration and command-line arguments according to the dat
 
 ## Notes
 
-- The Porto and Chengdu raw datasets are not included in this repository. Please download them manually and place them under `datasets/`. dataset can download https://drive.google.com/file/d/1AGklymPrryi5Cq24MZLm083jXfQDP4X9/view?usp=sharing
+- The Porto and Chengdu raw datasets are not included in this repository. Please download them through the links in the [Datasets](#datasets) section and place them under `datasets/`.
 - The trained model weights are included in `repro_assets/models/`.
 - The satellite image features are included in `repro_assets/data/`.
 - The anomaly files are not included by default and should be generated using the provided scripts.
